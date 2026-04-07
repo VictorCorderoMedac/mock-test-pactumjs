@@ -1,4 +1,4 @@
-git clone https://github.com/VictorCorderoMedac/mock-test-pactumjs.git
+git clone https://github.com/VictorCorderoMedac/mock-test-pactumjs.git  
 cd mock-test-pactumjs
  
  # Para iniciarlo:
