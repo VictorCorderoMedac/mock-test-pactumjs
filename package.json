@@ -1,0 +1,22 @@
+{
+  "name": "mock-test-pactumjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mock.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start:mock": "node mock-server.js",
+    "test:api": "mocha --require esm-disabled tests/api/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "express": "^5.2.1",
+    "mocha": "^10.8.2",
+    "pactum": "^3.9.1"
+  }
+}
