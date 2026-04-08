@@ -3,5 +3,5 @@ cd mock-test-pactumjs
  
  # Para iniciarlo:
 1.- Tendreis que instalar las dependencias: npm install  
-2.- Iniciar el mock server (desde la terminal de mock-server.js)  npm run start:mock
+2.- Iniciar el mock server (desde la terminal de mock-server.js)  npm run start:mock  
 3.- Iniciar los test: npm run test:api  
