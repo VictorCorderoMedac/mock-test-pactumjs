@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start:mock": "node mock-server.js",
-    "test:api": "mocha --require esm-disabled tests/api/**/*.test.js"
+    "test:api": "mocha tests/api/**/*.test.js"
   },
   "keywords": [],
   "author": "",

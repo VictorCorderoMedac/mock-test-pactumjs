@@ -8,7 +8,7 @@ describe('Auth API', () => {
     await spec()
       .post('/login')
       .withJson({
-        email: 'professor@test.com',
+        email: 'profesor@test.com',
         password: '1234'
       })
       .expectStatus(200)
@@ -23,7 +23,6 @@ describe('Auth API', () => {
         password: '1234'
       })
       .expectStatus(200);
-
   });
 
   it('login incorrecto devuelve 401', async () => {
